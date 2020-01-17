@@ -1,0 +1,90 @@
+Bidirectional LSTM:
+max_text_len=40
+max_summary_len=27
+
+Rouge results for 100 records of training set:
+Rouge-1 : 0.0002924724793987063
+Rouge-2 : 4.132822172640324e-05
+Rouge-L : 0.0002652079448961866
+
+5000 records:
+Rouge-1 : 0.1368348516370101
+Rouge-2 : 0.028525941149879736
+Rouge-L : 0.12400868131779888
+
+20000 records:
+Rouge-1 : 0.1379074609543127
+Rouge-2 : 0.02929424576013766
+Rouge-L : 0.12451067660227615
+
+Review: always good better choose america best buy us 
+Original summary: always good 
+Predicted summary:  great product
+
+Review: quick cook pretty dang tasty think way much sodium seasoning easy enough add 
+Original summary: delicious 
+Predicted summary:  great taste
+
+Review: one box shin noodle costs around asian store near house box sometimes sells sale box way overpriced check local asian markets 
+Original summary: too expensive 
+Predicted summary:  not as good as the picture
+
+Review: fyi guys ca buy exact box exact noodles korean market around get grocery store asian section get ripped got within easy access 
+Original summary: overpriced 
+Predicted summary:  not as advertised
+
+Review: good coffee definitely like strong coffee like product upper definitely would order product 
+Original summary: good strong coffee 
+Predicted summary:  good coffee
+
+
+----------------------------------------------------------------
+LSTM:
+max_text_len=30
+max_summary_len=8
+
+Rouge result of training set:
+Rouge-1 : 0.16636276912499534
+Rouge-2 : 0.03777505171999409
+Rouge-L : 0.15087572217506867
+
+5000 records:
+Rouge-1 : 0.1452441085466127
+Rouge-2 : 0.027052045284195258
+Rouge-L : 0.13245026240958643
+
+20000 records:
+Rouge-1 : 0.1462096631301081
+Rouge-2 : 0.029041863029337537
+Rouge-L : 0.1328651710806521
+
+Review: one box shin noodle costs around asian store near house box sometimes sells sale box way overpriced check local asian markets 
+Original summary: too expensive 
+Predicted summary:  good but not great
+
+-------------------------------------------------------------------
+LSTM
+max_text_len=40
+max_summary_len=27
+
+Rouge result of training set:
+Rouge-1 : 0.16549862047507807
+Rouge-2 : 0.0398979304390523
+Rouge-L : 0.14919619472255324
+
+5000 records:
+Rouge-1 : 0.14470474254484617
+Rouge-2 : 0.030774156291220753
+Rouge-L : 0.13099428047343367
+
+20000 records:
+Rouge-1 : 0.14532223580405787
+Rouge-2 : 0.03191075362835728
+Rouge-L : 0.13118139981312707
+
+
+Review: excellent buy purchase qualify free shipping still okay otherwise nearly good 
+Original summary: excellent purchase 
+Predicted summary:  great product
+
+

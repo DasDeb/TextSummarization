@@ -1,5 +1,8 @@
-# TextSummarization
+# TextSum
+A review of various popular text summarization approaches
 
-Review of different text summarization approaches:
-1) Extractive - LexRank, Luhn’s, LSA, Naive Frequency Binary Heap Based Algorithm
-2) Abstractive - Sequence-to-sequence model using custom attention layer
+Dependencies-pandas,rouge,numpy possibly in an anaconda environment.Can be run on colab as well.
+
+To run this first download the attention.py file and then run both the other files
+
+final_seq file for the Abstractive model and ExtractiveROUGE for others
